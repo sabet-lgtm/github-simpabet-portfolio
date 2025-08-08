@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simplicio Abet - Portfolio</title>
+  <style>
+    /* Reset and Base Styles */
+    html, body {
+      margin: 0;
+      padding: 0;
+      /* CHANGE THE COLOR HERE: This sets the main webpage background color */
+      background-color: #e0e6ed; 
+      font-family: Arial, sans-serif;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Container for content layout */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+
+    /* Hero Section */
+    .hero {
+      background-color: #1a252f;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+    .hero-eyebrow {
+      font-size: 1.2rem;
+      font-weight: 300;
+      color: #3498db;
+      margin: 0;
+    }
+    .hero-name {
+      font-size: 2.5rem;
+      margin: 10px 0 0 0;
+    }
+
+    /* Divider Rule */
+    .rule-wrap {
+      margin: 30px 0;
+    }
+    .rule {
+      height: 2px;
+      background-color: #bcc6d0;
+      border: none;
+    }
+
+    /* Section Styles */
+    section {
+      background: #ffffff; /* White boxes for contrast */
+      padding: 25px;
+      margin-bottom: 25px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+    h2, .section-label {
+      font-size: 1.5rem;
+      color: #2c3e50;
+      margin-top: 0;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 5px;
+    }
+
+    /* About Grid Layout */
+    .about-grid {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .about-text {
+      flex: 2;
+    }
+    .about-image {
+      flex: 1;
+      text-align: right;
+    }
+    .about-image img {
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #3498db;
+    }
+
+    /* Contact Section */
+    .contact-row {
+      text-align: center;
+      background: #ffffff; /* Matching white card style */
+      padding: 30px;
+      border-radius: 8px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+    .contact-line {
+      margin-top: 0;
+      font-size: 1.8rem;
+      color: #2c3e50;
+    }
+    .contact-link {
+      color: #3498db;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .contact-link:hover {
+      text-decoration: underline;
+    }
+    .contact-phone {
+      display: block;
+      margin-top: 10px;
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- HERO -->
+  <div class="hero">
+    <p class="hero-eyebrow">Engineering Student — Naga</p>
+    <h1 class="hero-name">Simplicio Abet</h1>
+  </div>
+
+  <!-- SIGNATURE RULE -->
+  <div class="rule-wrap">
+    <hr class="rule">
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2 class="section-label">Objective</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I'm a 3rd year Computer Engineering student from Naga College Foundation Inc. seeking an internship to apply classroom knowledge in real-world environments.</p>
+      </div>
+      <div class="about-image">
+        <img src="IMG_20260524_191232.png" alt="Profile photo" style="height: 100px; width: 100px;">
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <h2>Education</h2>
+    <p><strong>Mother Theresa Colegio de Balatan</strong><br>Senior High School</p>
+    <p><strong>Naga College Foundation Inc.</strong><br>College - Bachelor of Science in Computer Engineering</p>
+  </section>
+
+  <!-- CERTIFICATES AND SEMINARS -->
+  <section id="certificates">
+    <h2>Certificates & Seminars</h2>
+    <p>🏆 Canva for the AI-Enabled Workforce — March 2026</p>
+    <p>☁️ Cloud Computing in Software Development — March 2026</p>
+  </section>
+
+  <!-- CONTACT -->
+  <div class="contact-row" id="contact">
+    <h2 class="contact-line">Let's work together.</h2>
+    <a href="mailto:sabet@gbox.ncf.edu.ph" class="contact-link">sabet@gbox.ncf.edu.ph</a>
+    <span class="contact-phone">📞 09300445826</span>
+  </div>
+
+  <footer>
+    <p>© 2026 Simplicio E. Abet</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
